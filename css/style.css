@@ -82,7 +82,7 @@ h1.brand {
 .nav li{display:inline-block; float:none;}
 .nav a {padding: 3px 18px;color:inherit;border-radius:5px;}
 .mynav li{
-	font-family: "Myriad Pro";font-size: 23px; display: inline-block; color:#fff !important;
+	font-family: "Myriad Pro";font-size: 27px; display: inline-block; color:#fff !important;
 }
 .mynav li a:hover{
 	border-bottom:0;
@@ -207,9 +207,21 @@ h1.brand {
 	height: 200px;
 
 }
-#social-plug
+#SocialPlug
 {
 	background: #f6f6f6;
+}
+#social-icons a i
+{
+	padding: 20px 5px;color: #428BCA;
+	margin: 50px 0px;-webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+#social-icons a i:hover
+{
+	-webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  -moz-transform:rotate(360deg);
 }
 /*#portfolioSection, #ourServices, #blogSection{padding:70px 0 ; }
 .txtR{text-align:right}
