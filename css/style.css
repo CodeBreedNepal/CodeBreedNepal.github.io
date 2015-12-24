@@ -213,7 +213,7 @@ h1.brand {
 }
 #social-icons a i
 {
-	padding: 20px 5px;color: #428BCA;
+	padding: 20px 5px;color: #222;
 	margin: 50px 0px;-webkit-transition: -webkit-transform .8s ease-in-out;
   transition: transform .8s ease-in-out;
 }
