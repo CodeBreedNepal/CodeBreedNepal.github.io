@@ -1,11 +1,15 @@
 
 *{outline:0 !important;}
 body{ 
-		background: url('../img/bgdevelopment.png') no-repeat center center fixed; 
+		background: url('../img/bgdevelopment.png')  center center fixed; 
+		
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;]background-position: 0px 0px;
+	background-repeat: repeat-x;
+
+	animation: animatedBackground 40s linear infinite;
 
  padding:0; color: #454545; font-family: "Myriad Pro";}
 a,a:hover{text-decoration:none; color:#fff}
@@ -87,7 +91,7 @@ h1.brand {
 .mynav li a:hover{
 	border-bottom:0;
 	color:#222;
-	border-bottom: 3px solid #fafafa;
+	border-bottom: 3px solid #fa0000;
 	border-radius: 0;
 	background: transparent ;
 
@@ -191,8 +195,8 @@ h1.brand {
 /*contact us css*/
 #ContactUs
 {
-	background: #FFF;
-	border-top: 1px solid #ddd;text-align: left;
+	background: transparent;
+	border-top: 1px solid #ddd;text-align: left;color: #b43104 !important;
 }
 #form-contact
 {
