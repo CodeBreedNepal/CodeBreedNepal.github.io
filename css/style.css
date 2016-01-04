@@ -1,7 +1,9 @@
 
 *{outline:0 !important;}
 body{ 
-		background: url('../img/bgdevelopment.png')  center center fixed; 
+		/*background: url('../img/back.jpg') no-repeat  center center fixed;*/
+		background-color: #428bca;
+		
 		
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -86,12 +88,12 @@ h1.brand {
 .nav li{display:inline-block; float:none;}
 .nav a {padding: 3px 18px;color:inherit;border-radius:5px;}
 .mynav li{
-	font-family: "Myriad Pro";font-size: 27px; display: inline-block; color:#fff !important;
+	font-family: "Myriad Pro";font-size: 27px; display: inline-block; color:#000 !important;
 }
 .mynav li a:hover{
 	border-bottom:0;
 	color:#222;
-	border-bottom: 3px solid #fa0000;
+	border-bottom: 3px solid #333;
 	border-radius: 0;
 	background: transparent ;
 
@@ -196,7 +198,7 @@ h1.brand {
 #ContactUs
 {
 	background: transparent;
-	border-top: 1px solid #ddd;text-align: left;color: #b43104 !important;
+	border-top: 1px solid #ddd;text-align: left;color: #fff !important;
 }
 #form-contact
 {
@@ -413,7 +415,9 @@ h1.brand {
 }
 */
 
-#headerSection { padding:10px 0 20px; background:transparent;}
+#headerSection { padding:10px 0 20px;  background:transparent; /* For browsers that do not support gradients */
+    
+		}
 #welcomeSection{padding:44px 0}
 #headerSection {display: inline-block;width: 100%;}
 .blockDtl {text-align:center}
