@@ -415,7 +415,7 @@ h1.brand {
 }
 */
 
-#headerSection { padding:10px 0 20px;  background:transparent; /* For browsers that do not support gradients */
+#headerSection { padding:10px 0 20px;  background:#f3f3f3; /* For browsers that do not support gradients */
     
 		}
 #welcomeSection{padding:44px 0}
