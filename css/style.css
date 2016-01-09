@@ -88,12 +88,12 @@ h1.brand {
 .nav li{display:inline-block; float:none;}
 .nav a {padding: 3px 18px;color:inherit;border-radius:5px;}
 .mynav li{
-	font-family: "Myriad Pro";font-size: 27px; display: inline-block; color:#fff !important;
+	font-family: "Myriad Pro";font-size: 27px; display: inline-block; color:#004570 !important;
 }
 .mynav li a:hover{
 	border-bottom:0;
-	color:#222;
-	border-bottom: 3px solid #333;
+	color:#fed57e;
+	border-bottom: 3px solid ##004570;
 	border-radius: 0;
 	background: transparent ;
 
